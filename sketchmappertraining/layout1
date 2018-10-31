@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProjectionMap>
+  <surface horizontalForce="0" id="0" lock="false" name="0" res="6" sketch="sketchmappertraining$TestSketch" type="0" verticalForce="0">
+    <cornerpoint i="0" x="359.0" y="240.0"/>
+    <cornerpoint i="1" x="459.0" y="240.0"/>
+    <cornerpoint i="2" x="459.0" y="340.0"/>
+    <cornerpoint i="3" x="359.0" y="340.0"/>
+  </surface>
+  <surface horizontalForce="0" id="1" lock="false" name="1" res="6" sketch="sketchmappertraining$TestSketch" type="0" verticalForce="0">
+    <cornerpoint i="0" x="221.0" y="240.0"/>
+    <cornerpoint i="1" x="321.0" y="240.0"/>
+    <cornerpoint i="2" x="321.0" y="340.0"/>
+    <cornerpoint i="3" x="221.0" y="340.0"/>
+  </surface>
+  <surface horizontalForce="0" id="2" lock="false" name="2" res="6" sketch="sketchmappertraining$TestSketch" type="0" verticalForce="0">
+    <cornerpoint i="0" x="17.0" y="208.0"/>
+    <cornerpoint i="1" x="152.0" y="240.0"/>
+    <cornerpoint i="2" x="152.0" y="340.0"/>
+    <cornerpoint i="3" x="21.0" y="380.0"/>
+  </surface>
+  <surface horizontalForce="0" id="3" lock="false" name="3" res="6" sketch="sketchmappertraining$TestSketch" type="0" verticalForce="0">
+    <cornerpoint i="0" x="495.0" y="240.0"/>
+    <cornerpoint i="1" x="640.0" y="198.0"/>
+    <cornerpoint i="2" x="640.0" y="379.0"/>
+    <cornerpoint i="3" x="495.0" y="340.0"/>
+  </surface>
+</ProjectionMap>
