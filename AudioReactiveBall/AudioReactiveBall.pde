@@ -8,9 +8,11 @@
   */
 
 import ddf.minim.*;
+import ddf.minim.analysis.*;
 
 Minim minim;
 AudioPlayer player;
+FFT fft;
 
 void setup()
 {
@@ -23,6 +25,7 @@ void setup()
   // this means you can find files that are in the data folder and the 
   // sketch folder. you can also pass an absolute path, or a URL.
   player = minim.loadFile("Safe.mp3");
+  fft = new FFT(player.bufferSize(), player.sampleRate());
   ellipseMode(CENTER);
 }
 
@@ -33,9 +36,12 @@ void draw()
   stroke(255);
 player.play();
 int numFrames = player.mix.size();
-
 float amplitute = player.mix.level();
 
+fft.forward(player.mix);
+for(int i = 0; i<fft.specSize(); i++){
+  line(i, height, i, height - fft.getBand(i)*4);
+}
 
 for(int i = 0; i<numFrames; i++){
 ellipse(width/2,height/2,amplitute*500,amplitute*500);
