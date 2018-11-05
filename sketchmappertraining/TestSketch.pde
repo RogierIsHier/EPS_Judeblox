@@ -29,7 +29,7 @@ public class TestSketch extends AbstractSketch {
     @Override
     public void draw() {
         graphics.beginDraw();
-        background(bg);
+        graphics.background(bg);
         //graphics.background(0, 255, 0);
         //graphics.fill(0);
         //for (int i = 0; i < 100; i++) {
@@ -62,7 +62,7 @@ public class SecondSketch extends AbstractSketch {
     @Override
     public void draw() {
         graphics.beginDraw();
-        background(bg2);
+        graphics.background(bg2);
         //graphics.background(0, 0, 255);
         //graphics.fill(0);
         //for (int i = 0; i < 100; i++) {
