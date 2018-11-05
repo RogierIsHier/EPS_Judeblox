@@ -16,7 +16,7 @@ FFT fft;
 
 void setup()
 {
-  size(512, 200, P3D);
+  size(600, 600, P3D);
 
   // we pass this to Minim so that it can load files from the data directory
   minim = new Minim(this);
