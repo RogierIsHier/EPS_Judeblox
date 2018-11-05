@@ -17,7 +17,7 @@ import ixagon.surface.mapper.*;
 private SketchMapper sketchMapper;
 
 public void setup() {
-  size(659, 609, P3D);
+  size(1280, 720, P3D);
 
   //create our SketchMapper
   sketchMapper = new SketchMapper(this);
