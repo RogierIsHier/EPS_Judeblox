@@ -44,5 +44,11 @@ void draw()
 
   for (int i = 0; i<numFrames; i++) {
     ellipse(width/2, height/2, amplitute*500, amplitute*500);
+    
   }
+  translate(width/2,200,0);
+    rotate(amplitute*2);
+    rotateY(amplitute*5);
+    noFill();
+    box(40);
 }
